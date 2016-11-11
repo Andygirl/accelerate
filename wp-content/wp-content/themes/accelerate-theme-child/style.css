@@ -18,7 +18,7 @@
 
 /* Changes the navigation bar background color*/
 #masthead {
-    background: none repeat scroll 0 0 #45ac9d;
+    background: none repeat scroll 0 0 45ac9d;
 }
 
 /* Changing the button color on the homepage*/
@@ -46,4 +46,23 @@
 	font-weight: bold;
 	color: #45ac9d;
 	text-transform: uppercase;
+}
+
+/* Case Studies */
+
+aside.case-study-sidebar {
+	float:left;
+	width:314px;
+	margin: 0 40px 0 0;
+}
+
+div.case-study-images {
+	float:left;
+	width: 606px;
+}
+
+div.case-study-images img {
+	display:block;
+	margin-bottom:50px;
+	border:10x solid #dddddd;
 }
