@@ -121,4 +121,6 @@ div.case-study-images img {
     margin-bottom: 100px;
 }
 
-
+ul {
+    list-style: none;
+}
