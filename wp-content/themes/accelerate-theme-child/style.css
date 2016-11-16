@@ -120,3 +120,38 @@ div.case-study-images img {
     border: 1px solid #dddddd;
     margin-bottom: 100px;
 }
+
+/* contact form */
+
+.nf-form-title {
+  display: none;
+}
+.nf-form-fields-required {
+    display: none;
+}
+.nf-field .nf-field-label label {
+    font-weight: normal;
+    font-size: 16px;
+}
+.nf-field-container.textbox-container.label-above,
+.nf-field-container.email-container.label-above {
+    display: block;
+    width: 49%;
+    float: left;    
+    clear: initial;
+}
+.nf-field-container.email-container.label-above {
+  margin-left: 2%;
+}
+#nf-field-1, #nf-field-2 {
+  height: 40px;
+}
+#nf-field-4 {
+  float: right;
+  color: #FFF;
+  font-family: 'Montserrat', serif;
+  font-weight: bold;
+  font-size: 18px;
+  background-color: #45AC9D;
+  padding: 15px 80px;
+}
