@@ -49,7 +49,7 @@ get_header(); ?>
             $align_radio_button == "Left" ? $service_align = "alignleft" : $service_align = "alignright";
          ?>
     <div class="service-container">
-      <div class="services-image <?php the_field("service_align") ?>">
+      
               <?php if($service_image) { ?>
                  <?php echo wp_get_attachment_image( $service_image, $size ); ?>
               <?php } ?>
@@ -59,7 +59,7 @@ get_header(); ?>
       <div class="services-text">
         <h2><?php echo $service_title; ?></h2>
         <p><?php echo $service_text; ?></p>
-      </div>
+     
     </div>
 
       <?php endwhile; // end of the loop. ?>
