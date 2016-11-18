@@ -155,3 +155,91 @@ div.case-study-images img {
   background-color: #45AC9D;
   padding: 15px 80px;
 }
+
+/* Hero and services for about page */
+.about-here {
+   background: url("img/taxi-photo.jpg") no-repeat scroll left center;
+   max-width: 1080px;
+   width: 100%
+   height: auto;
+}
+
+.hero-text h2{
+  color: white;
+    font-family: "open sans";
+    font-size: 24px;
+    font-weight: normal;
+    margin: 16px 0 80px;
+    line-height: 2;
+}
+
+
+.service_posts h3 {
+  font-weight: 500;
+  font-size: 25px; 
+    margin-left: 67px;
+}
+
+.service_posts p {   
+  font-size: 18px;
+  color: #383838;
+}
+
+.services-ours {
+  text-align: center;
+}
+
+.service_container_Left  {
+  float: left;
+  
+}
+.services_text_Left {
+  float: right;
+  width: 600px;
+}
+.services_text_Left h2 {
+  margin: 0;
+}
+.services_text_Left p {
+  width: inherit;
+
+}
+.service_container_Right {
+  float: right;
+
+}
+.services_text_Right {
+  float: left;
+  width: 600px;
+}
+.services_text_Right h2 {
+  margin: 0;
+}
+.services_text_Right p {
+  width: inherit;
+}
+
+
+/* Contact us section */
+
+
+.contact-us {
+  width: 960px;
+  margin: 0 auto;
+  padding-top: 45px;
+  border-top: 1px #e3e1e2 solid;
+  text-align: center;
+}
+
+.contact-us h3, .contact-us a{
+  display: inline-block;
+}
+
+.contact-us a{
+  padding: 20px 70px;
+  background-color: #46ac9e;
+  margin-left: 45px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+}

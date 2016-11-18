@@ -37,31 +37,33 @@ get_header(); ?>
               <h4>Our Services</h4>
               <p>We take pride in our clients and the content we create for them.
               Here’s a brief overview of our offered services.</p>
-
-               <?php query_posts('post_type=services'); ?>
+            </div>
+                
+               <?php query_posts('post_type=services&order=ASC'); ?>
     <?php while ( have_posts() ) : the_post();
             $service_title = get_field('service_title');
             $service_text = get_field('service_text');
             $service_image = get_field('service_image');
             $size = "full";
             $service_align = " ";
-            $align_radio_button = get_field('service_align');
-            $align_radio_button == "Left" ? $service_align = "alignleft" : $service_align = "alignright";
+            $service_align_radio_button = get_field('service_align');
+            $service_align_radio_button == "Left" ? $service_align = "alignleft" : $service_align = "alignright";
          ?>
-    <div class="service-container">
-      
-              <?php if($service_image) { ?>
+       
+          <div class="service_container <?php echo $service_align; ?>">
+            <?php if($service_image) { ?>
                  <?php echo wp_get_attachment_image( $service_image, $size ); ?>
               <?php } ?>
-      </div>
+          </div>
+    
 
  
-      <div class="services-text">
+      <div class="services_text <?php echo $service_align; ?>">
         <h2><?php echo $service_title; ?></h2>
         <p><?php echo $service_text; ?></p>
      
-    </div>
-
+    </div>       
+ 
       <?php endwhile; // end of the loop. ?>
       <?php wp_reset_query(); ?>
 
