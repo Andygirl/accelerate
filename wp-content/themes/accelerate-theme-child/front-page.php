@@ -62,8 +62,43 @@ get_header(); ?>
        <a class="read-more-link" href="<?php the_permalink(); ?>">Read More <span>&rsaquo;</span></a>
      <?php endwhile; ?> 
     <?php wp_reset_query(); ?>
+   
    </div>
-  </div>
+</div>
+
+  
+   <!-- Twitter module -->
+
+<div class="twitter-widget">
+   <h3>Recent Tweet</h3>
+    <h2>@Accelerate</h2>
+
+
+<div class ="twitter-follow-container">
+        <a class="read-more-link" href="https://twitter.com/">Follow us <span>&rsaquo;</span></a>
+</div>
+
+</div>  
+      
+
+      
+
+
+
+<?php if ( is_active_sidebar( 'sidebar-2' ) ) : ?>
+<div id="secondary" class="widget-area" role="complementary"> 
+  <?php dynamic_sidebar( 'sidebar-2' ); ?>
+ </div>
+
+
+
+ 
+</div>
+
+<?php endif; ?>
+
+
 </section>
+
 
 <?php get_footer(); ?>

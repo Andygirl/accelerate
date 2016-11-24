@@ -48,6 +48,8 @@
 	text-transform: uppercase;
 }
 
+
+
 /* Featured work on homepage */
 .featured-work {
 	overflow:auto;
@@ -81,6 +83,63 @@
 .individual-featured-work:nth-child(3n) {
     margin: 0;
     width: 31%;
+}
+
+/* Twitter widget */
+
+.widget {
+  float: right;
+  overflow: hidden;
+  width: 30%;
+}
+
+div.blog-post {
+  overflow: hidden;
+  float: left;
+}
+
+}
+.twitter-widget h2 {
+    font-size: 24px;
+    font-family: 'Montserrat';
+    font-weight: bold;
+    color: black;
+}
+.twitter-widget h3 {
+  font-size: 16px;
+    font-family: 'Montserrat';
+    color: #a6a6a6;
+    text-transform: uppercase;
+}
+
+.twitter-widget {
+  float: right;
+  overflow: hidden;
+  width: 30%;
+}
+
+div.twitter-follow-container .read-more-link {
+    font-size: 24px;
+    font-family: 'Montserrat';
+    font-weight: bold;
+    color: #45ac9d;
+    text-transform: uppercase;
+}
+
+#pi_simpletwittertweets-2 li {
+    list-style: none;
+    font: 17px/1.65 'open sans', Arial, sans-serif;
+}
+
+.widget-title {
+  font-size: 16px;
+    font-family: 'Montserrat';
+    color: #a6a6a6;
+    text-transform: uppercase;
+}
+.widget-title :after {
+  color: red;
+  font-size: 24px;
 }
 
 /* Case Studies */
@@ -170,9 +229,41 @@ div.case-study-images img {
     font-size: 24px;
     font-weight: normal;
     margin: 16px 0 80px;
-    line-height: 2;
+    line-height: 1.50;
+    text-align: center;
 }
 
+.service_container.alignleft {
+  display: inline;
+  float: left;
+  margin-right: 30px;
+  margin-left: 30px;
+}
+
+.service_container.alignright {
+  display: inline;
+  float: right;
+  margin-left: 30px;
+  margin-right: 30px;
+  
+}
+
+.service_text_image {
+  display: inline-block;
+  margin-left: 80px;
+  margin-right: auto;
+  width: 80%;
+}
+
+.services_text {
+  overflow: hidden;
+
+}
+
+.services_text h2 {
+  font-family: "open sans";
+  font-weight: 500;
+}
 
 .service_posts h3 {
   font-weight: 500;
@@ -218,12 +309,19 @@ div.case-study-images img {
 .services_text_Right p {
   width: inherit;
 }
+.service_text.alignleft {
+  float: right;
+}
+
+.service_text.alignright {
+  float: left;
+}
 
 
 /* Contact us section */
 
 
-.contact-us {
+.contact_us {
   width: 960px;
   margin: 0 auto;
   padding-top: 45px;
@@ -231,11 +329,11 @@ div.case-study-images img {
   text-align: center;
 }
 
-.contact-us h3, .contact-us a{
+.contact_us h3, .contact_us a{
   display: inline-block;
 }
 
-.contact-us a{
+.contact_us a{
   padding: 20px 70px;
   background-color: #46ac9e;
   margin-left: 45px;
@@ -243,3 +341,5 @@ div.case-study-images img {
   font-weight: bold;
   font-size: 18px;
 }
+
+
