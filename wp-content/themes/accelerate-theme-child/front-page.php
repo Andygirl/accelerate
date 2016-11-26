@@ -64,7 +64,7 @@ get_header(); ?>
     <?php wp_reset_query(); ?>
    
    </div>
-</div>
+
 
   
    <!-- Twitter module -->
@@ -72,18 +72,11 @@ get_header(); ?>
 <div class="twitter-widget">
    <h3>Recent Tweet</h3>
     <h2>@Accelerate</h2>
-
-
 <div class ="twitter-follow-container">
-        <a class="read-more-link" href="https://twitter.com/">Follow us <span>&rsaquo;</span></a>
+        <a class="follow-us-link" href="https://twitter.com/">Follow us <span>&rsaquo;</span></a>
 </div>
 
-</div>  
-      
-
-      
-
-
+ 
 
 <?php if ( is_active_sidebar( 'sidebar-2' ) ) : ?>
 <div id="secondary" class="widget-area" role="complementary"> 
@@ -92,13 +85,19 @@ get_header(); ?>
 
 
 
- 
+
 </div>
+
+<aside id="mcrwp_form_widget2" class="widget widget_mc4wp_form_widget">
+ 
+
+
 
 <?php endif; ?>
 
-
+</div>
 </section>
 
 
 <?php get_footer(); ?>
+

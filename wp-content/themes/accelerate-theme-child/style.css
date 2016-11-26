@@ -69,7 +69,7 @@
 .individual-featured-work {
     float: left;
     list-style-type: none;
-    margin: 0 5% 0 0;
+    margin: 0 2% 0 0;
     width: 31%;
 }
 
@@ -85,62 +85,87 @@
     width: 31%;
 }
 
-/* Twitter widget */
+.homepage-featured-work {
+  width: 100%;
+}
 
+
+/* Twitter widget */
+/*
 .widget {
   float: right;
   overflow: hidden;
   width: 30%;
 }
-
+*/
 div.blog-post {
   overflow: hidden;
   float: left;
 }
 
-}
 .twitter-widget h2 {
     font-size: 24px;
     font-family: 'Montserrat';
     font-weight: bold;
     color: black;
+    padding-left: 30px;
 }
 .twitter-widget h3 {
   font-size: 16px;
     font-family: 'Montserrat';
     color: #a6a6a6;
     text-transform: uppercase;
+    padding-left: 30px;
+
 }
 
-.twitter-widget {
+.twitter-widget{
   float: right;
   overflow: hidden;
-  width: 30%;
+  width: 32%;
 }
 
-div.twitter-follow-container .read-more-link {
+.twitter-widget li{
+  list-style: none;
+  font: 17px 'open sans', Arial, sans-serif;
+  margin-left: -30px;
+}
+
+h3.widget-title {
+  margin-left: -30px;
+}
+
+
+div.twitter-follow-container .read-more-link a.follow-us-link {
     font-size: 24px;
     font-family: 'Montserrat';
     font-weight: bold;
     color: #45ac9d;
     text-transform: uppercase;
+    width: 32%;
+    float: right;
 }
 
-#pi_simpletwittertweets-2 li {
-    list-style: none;
-    font: 17px/1.65 'open sans', Arial, sans-serif;
-}
-
-.widget-title {
-  font-size: 16px;
-    font-family: 'Montserrat';
-    color: #a6a6a6;
-    text-transform: uppercase;
-}
-.widget-title :after {
-  color: red;
+a.follow-us-link {
   font-size: 24px;
-}
+    font-family: 'Montserrat';
+    font-weight: bold;
+    color: #45ac9d;
+    text-transform: uppercase;
+    padding-left: 30px;
+  }  
+ 
+
+/* Newsletter widget */
+
+
+
+
+
+
+
+
+
 
 /* Case Studies */
 
