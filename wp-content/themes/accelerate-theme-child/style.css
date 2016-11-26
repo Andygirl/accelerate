@@ -21,6 +21,12 @@
     background: none repeat scroll 0 0 #45ac9d;
 }
 
+/* Changes the menu to horizontal */
+div.menu-top-nav-container li {
+  display: inline;
+  padding-right: 20px;
+}
+
 /* Changing the button color on the homepage*/
 .button {
     background: none repeat scroll 0 0 #45ac9d;
@@ -91,13 +97,7 @@
 
 
 /* Twitter widget */
-/*
-.widget {
-  float: right;
-  overflow: hidden;
-  width: 30%;
-}
-*/
+
 div.blog-post {
   overflow: hidden;
   float: left;
@@ -128,11 +128,11 @@ div.blog-post {
 .twitter-widget li{
   list-style: none;
   font: 17px 'open sans', Arial, sans-serif;
-  margin-left: -30px;
+  margin-left: -35px;
 }
 
 h3.widget-title {
-  margin-left: -30px;
+  margin-left: -35px;
 }
 
 
@@ -366,5 +366,3 @@ div.case-study-images img {
   font-weight: bold;
   font-size: 18px;
 }
-
-
